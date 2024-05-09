@@ -28,7 +28,6 @@ class Taxta:
         for parça in self.parçalar:
             parça.hərəkət()
 
-# Nümunə istifadəsi
 taxta = Taxta()
 taxta.parça_əlavə_et(Şah("Ağ"))
 taxta.parça_əlavə_et(Vəzir("Siyah"))
